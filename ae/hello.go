@@ -1,10 +1,10 @@
 package hello
 
 import (
-    "net/http"
-    "aegotemplates/homepage"
+	"aegotemplates/homepage"
+	"net/http"
 )
 
 func init() {
-    http.HandleFunc("/", homepage.Homepage)
+	http.HandleFunc("/", homepage.Homepage)
 }
